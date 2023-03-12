@@ -15,7 +15,15 @@ class NavDrawerComponent extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[
-           ListTile(
+          const DrawerHeader(
+            decoration: BoxDecoration(
+                color: Colors.white,
+                image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: AssetImage('assets/pics/kuchnia_perska.jpeg'))),
+            child: Text(''),
+          ),
+          ListTile(
             leading: const Icon(Icons.home),
             title: const Text("Home page"),
             onTap: () => GoRouter.route(context, UrlRoute.root),
