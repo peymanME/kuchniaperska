@@ -1,0 +1,8 @@
+{
+  "logo": "assets/icon/icon.jpg",
+  "logger": true,
+  "version": "2022.0.13",
+  "apiUrl": "http://localhost:8080",
+  "webUrl": "https://niyaz.info",
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXltYW4iLCJleHAiOjE2NzEyOTQyODYsImlhdCI6MTY3MTI3NjI4Nn0.xAxsFvo278C0hBvpXKy2WDV-jg6pkUgxryIJsrFuZC8N5A1twRiNbHJHLY0QguXj4aPHPq5JhPQC5xjDQY3n8w"
+}
