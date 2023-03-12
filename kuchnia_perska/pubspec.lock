@@ -47,8 +47,8 @@ packages:
     dependency: "direct main"
     description:
       path: custom_flutter_framework
-      ref: "7-add-some-implemented-classes"
-      resolved-ref: "4b18969f9372c3cb535d5d7d2dd4af8297c11784"
+      ref: HEAD
+      resolved-ref: "13d430b570a2df16377c482366a5c3cd61dd8745"
       url: "git@github.com:peymanME/custom_flutter_package.git"
     source: git
     version: "0.0.1"
@@ -159,7 +159,7 @@ packages:
     source: hosted
     version: "1.0.0"
   package_info_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: package_info_plus
       url: "https://pub.dartlang.org"
